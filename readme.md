@@ -10,6 +10,10 @@ npm install
 npm install --save-dev package
 ```
 
+### Run live server for local development:
+```
+npm install --save-dev package
+```
 
 
 
