@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "tsc && live-server",
+    "watch:build": "tsc --watch"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,6 @@
   },
   "homepage": "https://github.com/luancardosolc/academind#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "live-server": "^1.2.1"
   }
 }
