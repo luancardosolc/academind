@@ -4,3 +4,4 @@ button.addEventListener('click', () => {
   console.log('Hummm... clicked!');
 });
 
+console.log('test noEmmitonError');
